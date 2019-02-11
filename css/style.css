@@ -1,5 +1,18 @@
+<<<<<<< HEAD
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+=======
 /* ===GENERAL=== */
 /* ===HEADER=== */
 /* ===MAIN=== */
 
 /* ===FOOTER=== */
+>>>>>>> 4f3df7762a2a73bb4e548dcfbc000fff0c08f803
