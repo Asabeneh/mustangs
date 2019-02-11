@@ -8,7 +8,21 @@ html,
 body {
   height: 100vh;
   width: 100vw;
+  background-color: #f8f8fd;
 }
+
+div.partners {
+    display: grid;
+    background-color: #fff;
+
+}
+
+div.partners > div.logo {
+    background-image: url(./mustangs/assets/images/Wordmark_Black.png)
+
+}
+
+
 =======
 /* ===GENERAL=== */
 /* ===HEADER=== */
