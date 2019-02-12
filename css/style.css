@@ -8,12 +8,11 @@
 
 html,
 body {
-  background: #f8f8fd;
+  background-color: #f8f8fd;
   color: #444;
   height: 100vh;
   line-height: 1.5;
   width: 100vw;
-  background-color: #f8f8fd;
 }
 
 /* ===HEADER=== */
@@ -151,19 +150,37 @@ flex: 1;
 
 /* Sooyeon */
 div.partners-box {
-  width: 70%;
+  width: 100%;
   margin: auto;
 }
 
-div.partners-box > div.logos {
-  display: grid;
-  background-color: #fff;
+div.partners-box > div.content {
+  width: 80%;
+  margin: auto;
 }
 
-div.logos > div.logo {
-  background-image: url(./mustangs/assets/images/Wordmark_Black.png);
-  margin: 0;
-  padding: 0;
+/* this part I put exactly same the website setting to test */
+div.content > div.desc {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  line-height: 2.17;
+  padding: 32px 0 0;
+}
+
+div.content > div.title {
+}
+
+div.content > div.logos {
+  display: grid;
+  background-color: #fff;
+  /* background-image: url(./mustangs/assets/images/Wordmark_Black.png); */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 1em;
+}
+
+.logo a {
+  background-color: darkorchid;
 }
 
 /* ===FOOTER=== */
