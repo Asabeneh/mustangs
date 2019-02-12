@@ -21,7 +21,7 @@ body {
 
 /*Husham's Part*/
 .h-circles {
-  /*border: 2px solid green; */
+  
   margin: 1vw 3.4vw;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@ body {
 }
 
 .h-text {
-  /*border: 2px solid red;*/
+  
   padding: 2rem;
   text-transform: uppercase;
   font-stretch: expanded;
@@ -39,16 +39,16 @@ body {
 }
 
 .h-heading {
-  /*border: 2px solid blue;*/
-  padding: 2rem;
+ 
+  padding: 3rem;
   text-align: center;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 2rem;
   font-stretch: expanded;
 }
 
 .h-all-circles {
-  /*border: 2px solid orange;*/
+  
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -61,14 +61,64 @@ body {
   align-content: center;
   text-align: center;
   width: 11%;
+  
 }
 
 .h-circle-img {
   align-self: center;
 }
 
-.h-circle-txt {
+.h-circles-text {
+   padding: 2rem 0rem;
+  text-align: center;
+  
+  font-size: 1rem;
+  font-stretch: expanded;
+
+  }
+
+.readMore-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1vw 3.4vw;
+  
+  
+  
 }
+
+
+
+.readmore1 {
+display: flex;
+flex-direction: column;
+align-content: center;
+align-items: center;
+background: #ffffff;
+margin-right: 1vw;
+flex: 1;
+}
+
+.readmore2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background: #ffffff;
+  margin-right: 0vw;
+  flex: 1; 
+  
+  }
+
+.h-readmore-img-sofa {
+  align-self: center;
+  width: 80%;
+}
+
+.h-readmore-img {
+  align-self: center;
+  width: 50%;
+}
+
 
 /* Sooyeon */
 div.partners-box {
