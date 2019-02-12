@@ -18,6 +18,22 @@ body {
 /* ===HEADER=== */
 /* ===MAIN=== */
 
+.circles {
+  border: 2px solid green;
+}
+
+.text {
+  border: 2px solid red;
+}
+
+.heading {
+  border: 2px solid blue;
+}
+
+.all-circles {
+  border: 2px solid orange;
+}
+
 /* ===FOOTER=== */
 .faq-menu {
   display: flex;
