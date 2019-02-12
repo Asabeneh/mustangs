@@ -84,10 +84,10 @@ div.partners-box > div.logos {
 
 div.logos > div.logo {
   background-image: url(./mustangs/assets/images/Wordmark_Black.png);
-
   margin: 0;
   padding: 0;
 }
+
 /* ===FOOTER=== */
 .faq-menu {
   display: flex;
