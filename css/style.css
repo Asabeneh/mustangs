@@ -81,10 +81,38 @@ body {
 .readMore-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 1vw 3.4vw;
+  margin: 1vw 3.4vw; 
+}
+
+.readmore-button-one {
+  background-color: #2ad0a7;
+  border: none;
+  color: white;
+  padding: .375rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 3rem;
+  border-radius: 2px;
+}
+
+.readmore-button-two {
+  background-color: #2ad0a7;
+  border: none;
+  color: white;
   
-  
-  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 2rem;
+  padding: .375rem 1.25rem;
+  border-radius: 2px;
 }
 
 
