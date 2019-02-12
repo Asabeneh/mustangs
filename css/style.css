@@ -41,10 +41,10 @@ body {
 
 .h-heading {
  
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 2rem;
   font-stretch: expanded;
 }
 
@@ -61,7 +61,7 @@ body {
   flex-direction: column;
   align-content: center;
   text-align: center;
-  width: 13%;
+  width: 11%;
   
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .h-circles-text {
-   padding: 2rem;
+   padding: 2rem 0rem;
   text-align: center;
   
   font-size: 1rem;
@@ -80,6 +80,11 @@ body {
 
 .readMore-container {
   display: flex;
+  justify-content: space-evenly;
+  margin: 1vw 3.4vw;
+  
+  
+  
 }
 
 
@@ -90,12 +95,29 @@ flex-direction: column;
 align-content: center;
 align-items: center;
 background: #ffffff;
-padding: 1rem;
+margin-right: 1vw;
+flex: 1;
+}
+
+.readmore2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background: #ffffff;
+  margin-right: 0vw;
+  flex: 1; 
+  
+  }
+
+.h-readmore-img-sofa {
+  align-self: center;
+  width: 80%;
 }
 
 .h-readmore-img {
   align-self: center;
-  width: 60%;
+  width: 50%;
 }
 
 
