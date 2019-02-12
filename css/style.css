@@ -19,26 +19,57 @@ body {
 /* ===MAIN=== */
 /*Husham's Part*/
 .h-circles {
-  border: 2px solid green;  
+  /*border: 2px solid green; */
+  margin: 1vw 3.4vw;
   display: flex;
   flex-direction: column;  
   align-items: center;
   align-content: center;
+  background-color: #FFFFFF;
+  
   
 }
 
 .h-text {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
+  padding: 2rem;
+  text-transform: uppercase;
+  font-stretch: expanded;
+  font-size: 1vw;
+  
 }
 
 .h-heading {
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
+  padding: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2vw;
+  font-stretch: expanded;
 }
 
 .h-all-circles {
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
   display: flex;
   width: 100%;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+}
+
+.image-txt-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 11%;
+}
+
+.h-circle-img {
+  align-self: center;
+}
+
+.h-circle-txt {
+ 
 }
 
 /* ===FOOTER=== */
