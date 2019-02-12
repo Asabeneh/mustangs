@@ -1,6 +1,9 @@
+/* ===GENERAL=== */
 * {
   font-family: Roboto, sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html,
@@ -10,31 +13,26 @@ body {
   height: 100vh;
   line-height: 1.5;
   width: 100vw;
-<<<<<<< HEAD
   background-color: #f8f8fd;
 }
 
-div.partners {
-    display: grid;
-    background-color: #fff;
-
-}
-
-div.partners > div.logo {
-    background-image: url(./mustangs/assets/images/Wordmark_Black.png)
-
-}
-
-
-=======
-=======
-  margin: 0;
-  padding: 0;
-}
->>>>>>> 8db0f39ae405f718646357a193609db6cad9e2d9
-/* ===GENERAL=== */
 /* ===HEADER=== */
+
 /* ===MAIN=== */
+
+div.partners-box {
+  width: 70%;
+  margin: auto;
+}
+
+div.partners-box > div.logos {
+  display: grid;
+  background-color: #fff;
+}
+
+div.logos > div.logo {
+  background-image: url(./mustangs/assets/images/Wordmark_Black.png);
+}
 
 /* ===FOOTER=== */
 .faq-menu {
