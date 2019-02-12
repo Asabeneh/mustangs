@@ -21,7 +21,6 @@ body {
 
 /*Husham's Part*/
 .h-circles {
-  
   margin: 1vw 3.4vw;
   display: flex;
   flex-direction: column;
@@ -31,7 +30,6 @@ body {
 }
 
 .h-text {
-  
   padding: 2rem;
   text-transform: uppercase;
   font-stretch: expanded;
@@ -39,7 +37,6 @@ body {
 }
 
 .h-heading {
- 
   padding: 3rem;
   text-align: center;
   font-weight: bold;
@@ -48,7 +45,6 @@ body {
 }
 
 .h-all-circles {
-  
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -61,7 +57,6 @@ body {
   align-content: center;
   text-align: center;
   width: 11%;
-  
 }
 
 .h-circle-img {
@@ -69,33 +64,27 @@ body {
 }
 
 .h-circles-text {
-   padding: 2rem 0rem;
+  padding: 2rem 0rem;
   text-align: center;
-  
+
   font-size: 1rem;
   font-stretch: expanded;
-
-  }
+}
 
 .readMore-container {
   display: flex;
   justify-content: space-evenly;
   margin: 1vw 3.4vw;
-  
-  
-  
 }
 
-
-
 .readmore1 {
-display: flex;
-flex-direction: column;
-align-content: center;
-align-items: center;
-background: #ffffff;
-margin-right: 1vw;
-flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background: #ffffff;
+  margin-right: 1vw;
+  flex: 1;
 }
 
 .readmore2 {
@@ -105,9 +94,8 @@ flex: 1;
   align-items: center;
   background: #ffffff;
   margin-right: 0vw;
-  flex: 1; 
-  
-  }
+  flex: 1;
+}
 
 .h-readmore-img-sofa {
   align-self: center;
@@ -118,7 +106,6 @@ flex: 1;
   align-self: center;
   width: 50%;
 }
-
 
 /* Sooyeon */
 div.partners-box {
