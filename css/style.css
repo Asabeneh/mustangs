@@ -10,11 +10,114 @@ body {
   height: 100vh;
   line-height: 1.5;
   width: 100vw;
+=======
   margin: 0;
   padding: 0;
 }
 /* ===GENERAL=== */
 /* ===HEADER=== */
+
+.section1{
+  width: auto;
+  height: 650px;
+  background-image: url("../assets/images/header-bg-helsinki.jpg");
+  background-size: 100% 100%;
+ 
+}
+.topLogo{
+  width: auto;
+  height: 80px;
+  display: flex;
+  /* margin-top: 40px; */
+}
+.logo{
+  width: 200px;
+  height: 40px;
+  background-image: url("../assets/images/logo.png");
+  background-size: 100% 100%;
+  
+}
+.line{
+  border-left: 3px solid #2ad0a7;
+  height: 60px;
+  margin: 0 10px;
+}
+.logoTitle{
+  width: 200px;
+  height: 50px;
+}
+.logoTitle p{
+  font-size: 22px;
+  margin-top: 0;
+}
+.rightLang{
+  float: right;
+  margin-right: 90px;
+}
+.rightLang a{
+  font-size: 14px;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+.rightLang a:hover{
+  background-color: #2ad0a7;
+  font-weight: bold;
+  border-radius: 5%;
+}
+.mainHeadTitle{
+  color: white;
+  text-align: center;
+  margin-top:220px;
+  font-weight: 900;
+  line-height: 1;
+  
+}
+.section2{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin: 10px;
+  color: white;
+}
+.sec2Item{
+  width: 45%;
+  height: 700px;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.BackgroundPart{
+  background-image: url("../assets/images/BackgroundBG.jpeg");
+  background-size: 100% 100%;
+  flex: 1;
+
+}
+.ServicePart{
+  flex: 1;
+  background-image: url("../assets/images/ServicesBG.jpg");
+  background-size: 100% 100%;
+
+}
+.sec2Txt{
+  margin-top: 120px;
+}
+.readmoreBtn{
+  background-color: #2ad0a7;
+  border-radius: 5%;
+  padding: 12px 30px;
+  color: white;
+  text-decoration: none;
+  /* margin-top: 140px; */
+}
+.readmoreBtn:hover{
+  cursor: pointer;
+  background-color: #36967e;
+}
+
+
+
 /* ===MAIN=== */
 
 /* ===FOOTER=== */
