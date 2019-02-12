@@ -22,7 +22,7 @@ body {
 
 /*Husham's Part*/
 .h-circles {
-  /*border: 2px solid green; */
+  
   margin: 1vw 3.4vw;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@ body {
 }
 
 .h-text {
-  /*border: 2px solid red;*/
+  ;
   padding: 2rem;
   text-transform: uppercase;
   font-stretch: expanded;
@@ -40,7 +40,7 @@ body {
 }
 
 .h-heading {
-  /*border: 2px solid blue;*/
+ 
   padding: 2rem;
   text-align: center;
   font-weight: bold;
@@ -49,7 +49,7 @@ body {
 }
 
 .h-all-circles {
-  /*border: 2px solid orange;*/
+  
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -61,15 +61,14 @@ body {
   flex-direction: column;
   align-content: center;
   text-align: center;
-  width: 11%;
+  width: 13%;
+  
 }
 
 .h-circle-img {
   align-self: center;
 }
 
-.h-circle-txt {
-}
 
 /* Sooyeon */
 div.partners-box {
