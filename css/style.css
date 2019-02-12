@@ -1,86 +1,83 @@
+/* ===GENERAL=== */
+
 * {
   font-family: Roboto, sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html,
 body {
-  background: #f8f8fd;
+  background-color: #f8f8fd;
   color: #444;
   height: 100vh;
   line-height: 1.5;
   width: 100vw;
-=======
-  margin: 0;
-  padding: 0;
 }
-/* ===GENERAL=== */
 /* ===HEADER=== */
 
-.section1{
+.section1 {
   width: auto;
   height: 650px;
   background-image: url("../assets/images/header-bg-helsinki.jpg");
   background-size: 100% 100%;
- 
 }
-.topLogo{
+.topLogo {
   width: auto;
   height: 80px;
   display: flex;
   /* margin-top: 40px; */
 }
-.logo{
+.logo {
   width: 200px;
   height: 40px;
   background-image: url("../assets/images/logo.png");
   background-size: 100% 100%;
-  
 }
-.line{
+.line {
   border-left: 3px solid #2ad0a7;
   height: 60px;
   margin: 0 10px;
 }
-.logoTitle{
+.logoTitle {
   width: 200px;
   height: 50px;
 }
-.logoTitle p{
+.logoTitle p {
   font-size: 22px;
   margin-top: 0;
 }
-.rightLang{
+.rightLang {
   float: right;
   margin-right: 90px;
 }
-.rightLang a{
+.rightLang a {
   font-size: 14px;
   text-decoration: none;
   padding: 5px;
   color: white;
 }
-.rightLang a:hover{
+.rightLang a:hover {
   background-color: #2ad0a7;
   font-weight: bold;
   border-radius: 5%;
 }
-.mainHeadTitle{
+.mainHeadTitle {
   color: white;
   text-align: center;
-  margin-top:220px;
+  margin-top: 220px;
   font-weight: 900;
   line-height: 1;
-  
 }
-.section2{
+.section2 {
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
   margin: 10px;
   color: white;
 }
-.sec2Item{
+.sec2Item {
   width: 45%;
   height: 700px;
   text-align: center;
@@ -88,22 +85,20 @@ body {
   font-size: 14px;
 }
 
-.BackgroundPart{
+.BackgroundPart {
   background-image: url("../assets/images/BackgroundBG.jpeg");
   background-size: 100% 100%;
   flex: 1;
-
 }
-.ServicePart{
+.ServicePart {
   flex: 1;
   background-image: url("../assets/images/ServicesBG.jpg");
   background-size: 100% 100%;
-
 }
-.sec2Txt{
+.sec2Txt {
   margin-top: 120px;
 }
-.readmoreBtn{
+.readmoreBtn {
   background-color: #2ad0a7;
   border-radius: 5%;
   padding: 12px 30px;
@@ -111,14 +106,138 @@ body {
   text-decoration: none;
   /* margin-top: 140px; */
 }
-.readmoreBtn:hover{
+.readmoreBtn:hover {
   cursor: pointer;
   background-color: #36967e;
 }
 
-
+/* ===HEADER=== */
 
 /* ===MAIN=== */
+
+/*Husham's Part*/
+.h-circles {
+  margin: 1vw 3.4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: #ffffff;
+}
+
+.h-text {
+  padding: 2rem;
+  text-transform: uppercase;
+  font-stretch: expanded;
+  font-size: 1vw;
+}
+
+.h-heading {
+  padding: 3rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  font-stretch: expanded;
+}
+
+/* ===MAIN=== */
+.h-all-circles {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+}
+
+.image-txt-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 11%;
+}
+
+.h-circle-img {
+  align-self: center;
+}
+
+.h-circles-text {
+  padding: 2rem 0rem;
+  text-align: center;
+
+  font-size: 1rem;
+  font-stretch: expanded;
+}
+
+.readMore-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1vw 3.4vw;
+}
+
+.readmore1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background: #ffffff;
+  margin-right: 1vw;
+  flex: 1;
+}
+
+.readmore2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background: #ffffff;
+  margin-right: 0vw;
+  flex: 1;
+}
+
+.h-readmore-img-sofa {
+  align-self: center;
+  width: 80%;
+}
+
+.h-readmore-img {
+  align-self: center;
+  width: 50%;
+}
+
+/* Sooyeon */
+div.partners-box {
+  width: 100%;
+  margin: auto;
+}
+
+div.partners-box > div.content {
+  width: 80%;
+  margin: auto;
+}
+
+/* this part I put exactly same the website setting to test */
+div.content > div.desc {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  line-height: 2.17;
+  padding: 32px 0 0;
+}
+
+div.content > div.title {
+}
+
+div.content > div.logos {
+  display: grid;
+  background-color: #fff;
+  /* background-image: url(./mustangs/assets/images/Wordmark_Black.png); */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 1em;
+}
+
+.logo a {
+  background-color: darkorchid;
+}
 
 /* ===FOOTER=== */
 .faq-menu {
