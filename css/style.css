@@ -160,7 +160,7 @@ header{
   padding: 2rem;
   text-transform: uppercase;
   font-stretch: expanded;
-  font-size: 1vw;
+  font-size: 1rem;
 }
 
 .h-heading {
@@ -177,6 +177,7 @@ header{
   width: 100%;
   justify-content: space-evenly;
   padding: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .image-txt-container {
@@ -184,7 +185,8 @@ header{
   flex-direction: column;
   align-content: center;
   text-align: center;
-  width: 11%;
+  
+  flex: 1;
 }
 
 .h-circle-img {
@@ -202,7 +204,43 @@ header{
 .readMore-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 1vw 3.4vw;
+  margin: 1vw 3.4vw; 
+  flex-wrap: wrap;
+}
+
+.readmore-button-one {
+  background-color: #2ad0a7;
+  border: none;
+  color: white;
+  padding: .375rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 3rem;
+  border-radius: 2px;
+}
+
+.readmore-button-two {
+  background-color: #2ad0a7;
+  border: none;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 2rem;
+  padding: .375rem 1.25rem;
+  border-radius: 2px;
+}
+
+.readmore-button:hover {
+  background-color: #24B08D;
 }
 
 .readmore1 {
@@ -270,7 +308,7 @@ div.content > div.logos {
   background-color: darkorchid;
 }
 
-/* ===FOOTER=== */
+/* FAQ */
 .faq-menu {
   display: flex;
   justify-content: center;
@@ -319,10 +357,6 @@ div.content > div.logos {
   width: 720px;
 }
 
-.questions {
-  padding: 20px 80px 20px 30px;
-}
-
 .item > p {
   font-size: 16px;
   font-weight: 300;
@@ -333,6 +367,11 @@ div.content > div.logos {
   padding-bottom: 30px;
 }
 
+.questions {
+  padding: 20px 80px 20px 30px;
+}
+
+/* Footer */
 footer {
   background: #ffffff;
   height: 140px;
@@ -343,17 +382,49 @@ footer {
 }
 
 footer ul {
+  color: #999;
   display: flex;
   flex: 1;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  font-size: 13px;
+  line-height: 1.67;
+  height: 100%;
+  padding: 0 140px;
   list-style-type: none;
 }
 
-.chms-logo img {
-  width: 5rem;
+footer ul :nth-child(4) a {
+  color: #999;
 }
 
-.footer-style > ul > li:nth-child(2) {
-  font-size: 50px;
+footer span {
+  display: block;
+}
+
+.chms-logo img {
+  border-style: none;
+  height: 30px;
+  vertical-align: middle;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1000px) {
+  footer {
+    height: 100%;
+  }
+
+  footer ul {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  footer li {
+    margin: 10px 0;
+  }
+
+  footer span {
+    display: initial;
+  }
 }
