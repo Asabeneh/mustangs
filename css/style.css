@@ -1,4 +1,5 @@
 /* ===GENERAL=== */
+
 * {
   font-family: Roboto, sans-serif;
   box-sizing: border-box;
@@ -14,6 +15,101 @@ body {
   line-height: 1.5;
   width: 100vw;
 }
+/* ===HEADER=== */
+
+.section1 {
+  width: auto;
+  height: 650px;
+  background-image: url("../assets/images/header-bg-helsinki.jpg");
+  background-size: 100% 100%;
+}
+.topLogo {
+  width: auto;
+  height: 80px;
+  display: flex;
+  /* margin-top: 40px; */
+}
+.logo {
+  width: 100px;
+  height: 60px;
+  background-image: url("../assets/images/logo.png");
+  background-size: 100% 100%;
+}
+.line {
+  border-left: 3px solid #2ad0a7;
+  height: 60px;
+  margin: 0 10px;
+}
+.logoTitle {
+  width: 150px;
+  height: 30px;
+}
+.logoTitle p {
+  font-size: 22px;
+  margin-top: 0;
+}
+.rightLang {
+  float: right;
+  margin-right: 90px;
+}
+.rightLang a {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+.rightLang a:hover {
+  background-color: #2ad0a7;
+  font-weight: bold;
+  border-radius: 5%;
+}
+.mainHeadTitle {
+  color: white;
+  text-align: center;
+  margin-top: 220px;
+  font-weight: 900;
+  line-height: 1;
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin: 10px;
+  color: white;
+}
+.sec2Item {
+  width: 45%;
+  height: 700px;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.BackgroundPart {
+  background-image: url("../assets/images/BackgroundBG.jpeg");
+  background-size: 100% 100%;
+  flex: 1;
+}
+.ServicePart {
+  flex: 1;
+  background-image: url("../assets/images/ServicesBG.jpg");
+  background-size: 100% 100%;
+}
+.sec2Txt {
+  margin-top: 120px;
+}
+.readmoreBtn {
+  background-color: #2ad0a7;
+  border-radius: 5%;
+  padding: 12px 30px;
+  color: white;
+  text-decoration: none;
+  /* margin-top: 140px; */
+}
+.readmoreBtn:hover {
+  cursor: pointer;
+  background-color: #36967e;
+}
 
 /* ===HEADER=== */
 
@@ -21,7 +117,6 @@ body {
 
 /*Husham's Part*/
 .h-circles {
-  
   margin: 1vw 3.4vw;
   display: flex;
   flex-direction: column;
@@ -31,7 +126,6 @@ body {
 }
 
 .h-text {
-  
   padding: 2rem;
   text-transform: uppercase;
   font-stretch: expanded;
@@ -39,7 +133,6 @@ body {
 }
 
 .h-heading {
- 
   padding: 3rem;
   text-align: center;
   font-weight: bold;
@@ -47,8 +140,8 @@ body {
   font-stretch: expanded;
 }
 
+/* ===MAIN=== */
 .h-all-circles {
-  
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -61,7 +154,6 @@ body {
   align-content: center;
   text-align: center;
   width: 11%;
-  
 }
 
 .h-circle-img {
@@ -69,17 +161,17 @@ body {
 }
 
 .h-circles-text {
-   padding: 2rem 0rem;
+  padding: 2rem 0rem;
   text-align: center;
-  
+
   font-size: 1rem;
   font-stretch: expanded;
-
-  }
+}
 
 .readMore-container {
   display: flex;
   justify-content: space-evenly;
+<<<<<<< HEAD
   margin: 1vw 3.4vw; 
 }
 
@@ -112,18 +204,19 @@ body {
   margin-top: 2rem;
   padding: .375rem 1.25rem;
   border-radius: 2px;
+=======
+  margin: 1vw 3.4vw;
+>>>>>>> 2b7af9b0b06ea8612236762974b02b41de3bac2b
 }
 
-
-
 .readmore1 {
-display: flex;
-flex-direction: column;
-align-content: center;
-align-items: center;
-background: #ffffff;
-margin-right: 1vw;
-flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background: #ffffff;
+  margin-right: 1vw;
+  flex: 1;
 }
 
 .readmore2 {
@@ -133,9 +226,8 @@ flex: 1;
   align-items: center;
   background: #ffffff;
   margin-right: 0vw;
-  flex: 1; 
-  
-  }
+  flex: 1;
+}
 
 .h-readmore-img-sofa {
   align-self: center;
@@ -146,7 +238,6 @@ flex: 1;
   align-self: center;
   width: 50%;
 }
-
 
 /* Sooyeon */
 div.partners-box {
