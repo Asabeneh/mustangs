@@ -239,7 +239,7 @@ div.content > div.logos {
   background-color: darkorchid;
 }
 
-/* ===FOOTER=== */
+/* FAQ */
 .faq-menu {
   display: flex;
   justify-content: center;
@@ -288,10 +288,6 @@ div.content > div.logos {
   width: 720px;
 }
 
-.questions {
-  padding: 20px 80px 20px 30px;
-}
-
 .item > p {
   font-size: 16px;
   font-weight: 300;
@@ -302,6 +298,11 @@ div.content > div.logos {
   padding-bottom: 30px;
 }
 
+.questions {
+  padding: 20px 80px 20px 30px;
+}
+
+/* Footer */
 footer {
   background: #ffffff;
   height: 140px;
@@ -312,17 +313,49 @@ footer {
 }
 
 footer ul {
+  color: #999;
   display: flex;
   flex: 1;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  font-size: 13px;
+  line-height: 1.67;
+  height: 100%;
+  padding: 0 140px;
   list-style-type: none;
 }
 
-.chms-logo img {
-  width: 5rem;
+footer ul :nth-child(4) a {
+  color: #999;
 }
 
-.footer-style > ul > li:nth-child(2) {
-  font-size: 50px;
+footer span {
+  display: block;
+}
+
+.chms-logo img {
+  border-style: none;
+  height: 30px;
+  vertical-align: middle;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1000px) {
+  footer {
+    height: 100%;
+  }
+
+  footer ul {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  footer li {
+    margin: 10px 0;
+  }
+
+  footer span {
+    display: initial;
+  }
 }
