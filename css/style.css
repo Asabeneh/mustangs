@@ -171,7 +171,6 @@ body {
 .readMore-container {
   display: flex;
   justify-content: space-evenly;
-<<<<<<< HEAD
   margin: 1vw 3.4vw; 
 }
 
@@ -204,9 +203,6 @@ body {
   margin-top: 2rem;
   padding: .375rem 1.25rem;
   border-radius: 2px;
-=======
-  margin: 1vw 3.4vw;
->>>>>>> 2b7af9b0b06ea8612236762974b02b41de3bac2b
 }
 
 .readmore1 {
