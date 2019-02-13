@@ -16,41 +16,64 @@ body {
   width: 100vw;
 }
 /* ===HEADER=== */
+header{
+  max-width: 1300px;
+  margin: 0 auto;
+}
 
 .section1 {
   width: auto;
   height: 650px;
   background-image: url("../assets/images/header-bg-helsinki.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center 100%;
 }
-.topLogo {
-  width: auto;
-  height: 80px;
+.topLogo{
+  width: 300px;
+  height: 40px;
   display: flex;
-  /* margin-top: 40px; */
 }
+.topLogo div{
+  margin: 40px 0 0 20px;
+}
+
 .logo {
   width: 100px;
-  height: 60px;
+  height: 40px;
   background-image: url("../assets/images/logo.png");
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center 100%;
+}
+.logo .tooltip{
+  visibility: hidden;
+  color: #2ad0a7;
+  padding: 20px;
+  font-size: 20px;
+  
+}
+
+.logo:hover .tooltip{
+  visibility: visible;
+  opacity: 1;
 }
 .line {
-  border-left: 3px solid #2ad0a7;
-  height: 60px;
+  border-left: 3px solid white;
+  height: 35px;
   margin: 0 10px;
 }
 .logoTitle {
   width: 150px;
-  height: 30px;
+  height: 60px;
+  
 }
 .logoTitle p {
-  font-size: 22px;
-  margin-top: 0;
+  color: white;
+  font-size: 16px;
+  line-height: 1;
 }
 .rightLang {
   float: right;
-  margin-right: 90px;
+  margin: 0 90px 0 0;
 }
 .rightLang a {
   font-size: 14px;
@@ -67,19 +90,24 @@ body {
   color: white;
   text-align: center;
   margin-top: 220px;
+  font-size: 25px;
   font-weight: 900;
   line-height: 1;
+  letter-spacing: 2px;
 }
 .section2 {
+  max-width: 1300px;
+  margin: 10px auto 0 auto;
+  height: 650px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
-  margin: 10px;
   color: white;
+  /* flex-wrap: wrap; */
 }
 .sec2Item {
-  width: 45%;
-  height: 700px;
+  flex: 1;
+  flex-basis: 49%;
+  box-sizing: border-box;
   text-align: center;
   padding: 20px;
   font-size: 14px;
@@ -88,28 +116,31 @@ body {
 .BackgroundPart {
   background-image: url("../assets/images/BackgroundBG.jpeg");
   background-size: 100% 100%;
-  flex: 1;
+  margin-right: 7px;
 }
 .ServicePart {
-  flex: 1;
   background-image: url("../assets/images/ServicesBG.jpg");
   background-size: 100% 100%;
+  margin-left: 7px;
 }
 .sec2Txt {
-  margin-top: 120px;
+  margin-top: 140px;
 }
 .readmoreBtn {
-  background-color: #2ad0a7;
-  border-radius: 5%;
-  padding: 12px 30px;
-  color: white;
-  text-decoration: none;
-  /* margin-top: 140px; */
+  margin: 270px 0 ;
 }
-.readmoreBtn:hover {
+.readmoreBtn a{
+  text-decoration: none;
+  color: white;
+  background-color: #2ad0a7;
+  padding: 10px 30px;
+}
+.readmoreBtn a:hover{
   cursor: pointer;
   background-color: #36967e;
 }
+
+
 
 /* ===HEADER=== */
 
