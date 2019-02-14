@@ -16,10 +16,7 @@ body {
   width: 100vw;
 }
 /* ===HEADER=== */
-header {
-  max-width: 1300px;
-  margin: 0 auto;
-}
+
 
 .section1 {
   width: auto;
@@ -97,7 +94,6 @@ header {
   letter-spacing: 2px;
 }
 .section2 {
-  max-width: 1300px;
   margin: 10px auto 0 auto;
   height: 650px;
   display: flex;
