@@ -14,12 +14,10 @@ body {
   height: 100vh;
   line-height: 1.5;
   width: 100vw;
-}
-/* ===HEADER=== */
-header {
   max-width: 1300px;
   margin: 0 auto;
 }
+/* ===HEADER=== */
 
 .section1 {
   width: auto;
@@ -94,7 +92,6 @@ header {
   letter-spacing: 2px;
 }
 .section2 {
-  max-width: 1300px;
   margin: 10px auto 0 auto;
   height: 650px;
   display: flex;
@@ -315,7 +312,7 @@ div.content > div.desc {
   font-weight: 400;
   letter-spacing: 1.5px;
   line-height: 2.17;
-  padding: 32px 0 0;
+  /* padding: 32px 0 0; */
   text-align: center;
 }
 
