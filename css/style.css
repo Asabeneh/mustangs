@@ -46,9 +46,10 @@ body {
   color: #2ad0a7;
   padding: 10px 20px;
   font-size: 22px;
-  background-color: rgb(235, 232, 232);
+  background-color: rgb(218, 212, 212);
   position: block;
-  border-radius: 15%;
+  border-radius: 5%;
+  margin: 3px;
 }
 
 .logo:hover .tooltip {
