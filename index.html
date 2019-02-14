@@ -469,5 +469,32 @@
         </footer>
       </div>
     </div>
+    <script>
+      let flag = false;
+      const details = document.querySelectorAll('details');
+      const summary = document.querySelectorAll('summary');
+      details.forEach((detail => {
+         detail.addEventListener('toggle', (e) => {
+           if(detail.open){
+              e.target.children[0].style.backgroundImage= 'none';
+              flag = true;
+           }
+          //  if(detail.close ) {
+          //   e.target.children[0].style.backgroundImage= `url(${./assets/images/icon-arrow.svg})`;
+          //     flag = false;
+          //  }
+          
+         })
+      }))
+    
+    
+//       summary {
+//   background-image: url(/assets/images/icon-arrow.svg);
+//   background-repeat: no-repeat;
+//   background-position: right 30px center;
+//   padding: 20px 80px 20px 30px;
+// }
+    
+    </script>
   </body>
 </html>
