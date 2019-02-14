@@ -96,12 +96,12 @@ body {
   letter-spacing: 2px;
 }
 .section2 {
-  margin: 10px auto 0 auto;
-  height: 650px;
+  margin: 10px auto 0 auto;  
   display: flex;
   justify-content: space-between;
   color: white;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;   
+ 
 }
 .sec2Item {
   flex: 1;
@@ -110,6 +110,7 @@ body {
   text-align: center;
   padding: 20px;
   font-size: 14px;
+  
 }
 
 .BackgroundPart {
@@ -144,8 +145,12 @@ body {
 /* ===MAIN=== */
 
 /*Husham's Part*/
+
+.section3 {
+ 
+}
 .h-circles {
-  margin: 1vw 3.4vw;
+  margin: 1vw auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -201,7 +206,7 @@ body {
 .readMore-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 1vw 3.4vw;
+  margin: 1vw auto;
   flex-wrap: wrap;
 }
 
@@ -214,9 +219,10 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 1rem 0.5rem;
+  
   cursor: pointer;
-  margin-top: 3rem;
+ 
   border-radius: 2px;
 }
 
@@ -229,11 +235,13 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 1rem 0.5rem;
   cursor: pointer;
-  margin-top: 2rem;
+  
+  
   padding: 0.375rem 1.25rem;
   border-radius: 2px;
+  
 }
 
 .readmore-button:hover {
@@ -260,6 +268,8 @@ body {
   flex: 1;
 }
 
+
+
 .h-readmore-img-sofa {
   align-self: center;
   width: 80%;
@@ -268,6 +278,20 @@ body {
 .h-readmore-img {
   align-self: center;
   width: 50%;
+}
+
+.btn-container-readmore {
+  border: 0px solid green;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  margin-top: 2rem;
+  
+  
+  
+  
+  
 }
 
 /* Sooyeon */
