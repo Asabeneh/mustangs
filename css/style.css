@@ -274,7 +274,6 @@ body {
 div.partners-box {
   width: 100%;
   margin: auto;
-  border: red dashed;
   display: grid;
   grid-gap: 1em;
   grid-column-gap: 10px;
@@ -285,7 +284,6 @@ div.partners-box > div.content {
   width: 100%;
   /* I have to find out exactly same width with others */
   margin: auto;
-  border: yellowgreen dashed;
   background-color: #fff;
 }
 
@@ -310,8 +308,7 @@ div.content > div.title {
   width: 75%;
 }
 
-div.content > div.partners-logos {
-  border: #000 dashed;
+div.content > div.partners-logos {x§
   display: grid;
   margin-top: 12px;
   margin: 0 220px;
