@@ -16,7 +16,7 @@ body {
   width: 100vw;
 }
 /* ===HEADER=== */
-header{
+header {
   max-width: 1300px;
   margin: 0 auto;
 }
@@ -28,12 +28,12 @@ header{
   background-size: cover;
   background-position: center 100%;
 }
-.topLogo{
+.topLogo {
   width: 300px;
   height: 40px;
   display: flex;
 }
-.topLogo div{
+.topLogo div {
   margin: 40px 0 0 20px;
 }
 
@@ -44,15 +44,17 @@ header{
   background-size: cover;
   background-position: center 100%;
 }
-.logo .tooltip{
+.tooltip {
   visibility: hidden;
   color: #2ad0a7;
-  padding: 20px;
-  font-size: 20px;
-  
+  padding: 10px 20px;
+  font-size: 22px;
+  background-color: rgb(235, 232, 232);
+  position: block;
+  border-radius: 15%;
 }
 
-.logo:hover .tooltip{
+.logo:hover .tooltip {
   visibility: visible;
   opacity: 1;
 }
@@ -64,7 +66,6 @@ header{
 .logoTitle {
   width: 150px;
   height: 60px;
-  
 }
 .logoTitle p {
   color: white;
@@ -127,20 +128,18 @@ header{
   margin-top: 140px;
 }
 .readmoreBtn {
-  margin: 270px 0 ;
+  margin: 270px 0;
 }
-.readmoreBtn a{
+.readmoreBtn a {
   text-decoration: none;
   color: white;
   background-color: #2ad0a7;
   padding: 10px 30px;
 }
-.readmoreBtn a:hover{
+.readmoreBtn a:hover {
   cursor: pointer;
   background-color: #36967e;
 }
-
-
 
 /* ===HEADER=== */
 
@@ -185,7 +184,7 @@ header{
   flex-direction: column;
   align-content: center;
   text-align: center;
-  
+
   flex: 1;
 }
 
@@ -204,7 +203,7 @@ header{
 .readMore-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 1vw 3.4vw; 
+  margin: 1vw 3.4vw;
   flex-wrap: wrap;
 }
 
@@ -212,7 +211,7 @@ header{
   background-color: #2ad0a7;
   border: none;
   color: white;
-  padding: .375rem 1.25rem;
+  padding: 0.375rem 1.25rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -227,7 +226,7 @@ header{
   background-color: #2ad0a7;
   border: none;
   color: white;
-  
+
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -235,12 +234,12 @@ header{
   margin: 4px 2px;
   cursor: pointer;
   margin-top: 2rem;
-  padding: .375rem 1.25rem;
+  padding: 0.375rem 1.25rem;
   border-radius: 2px;
 }
 
 .readmore-button:hover {
-  background-color: #24B08D;
+  background-color: #24b08d;
 }
 
 .readmore1 {
