@@ -14,7 +14,7 @@ body {
   height: 100vh;
   line-height: 1.5;
   width: 100vw;
-  max-width: 1300px;
+  /* max-width: 1300px; */
   margin: 0 auto;
 }
 /* ===HEADER=== */
@@ -347,14 +347,14 @@ div.content > div.partners-logos {
   width: 1268px;
 }
 
-.description {
+.faq-description {
   font-size: 12px;
   letter-spacing: 1.5px;
   line-height: 2.17;
   padding: 32px 0 0;
 }
 
-.title h3 {
+.faq-title h3 {
   font-size: 1.75rem;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -362,9 +362,10 @@ div.content > div.partners-logos {
   padding-top: 32px;
 }
 
-.content {
+.faq-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   list-style-type: none;
   padding: 75px 90px 150px;
@@ -415,11 +416,8 @@ summary::-webkit-details-marker {
 /* Footer */
 footer {
   background: #ffffff;
-  height: 140px;
-}
-
-.footer-style {
   display: flex;
+  height: 140px;
 }
 
 footer ul {
