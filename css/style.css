@@ -330,7 +330,7 @@ div.content > div.partners-logos {
   background-size: 100%;
 }
 
-/* FAQ */
+/* ===FAQ=== */
 .faq-menu {
   display: flex;
   justify-content: center;
@@ -413,7 +413,7 @@ summary::-webkit-details-marker {
   padding: 0 30px 18px;
 }
 
-/* Footer */
+/* ===F00TER=== */
 footer {
   background: #ffffff;
   display: flex;
@@ -447,11 +447,11 @@ footer span {
   vertical-align: middle;
 }
 
-/* Media Queries */
+/* ===MEDIA QUERIES=== */
 @media only screen and (max-width: 1000px) {
-  /* FAQ Menu */
+  /* ===FAQ MENU=== */
 
-  /* Footer */
+  /* ===FOOTER=== */
   footer {
     height: 100%;
   }
