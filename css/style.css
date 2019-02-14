@@ -14,9 +14,13 @@ body {
   height: 100vh;
   line-height: 1.5;
   width: 100vw;
-  max-width: 1300px;
+}
+
+.container {
+  max-width: 1280px;
   margin: 0 auto;
 }
+
 /* ===HEADER=== */
 
 .section1 {
@@ -278,7 +282,7 @@ div.partners-box {
 }
 
 div.partners-box > div.content {
-  width: 85%;
+  width: 100%;
   /* I have to find out exactly same width with others */
   margin: auto;
   border: yellowgreen dashed;
