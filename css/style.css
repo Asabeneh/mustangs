@@ -14,14 +14,22 @@ body {
   height: 100vh;
   line-height: 1.5;
   width: 100vw;
+<<<<<<< HEAD
 }
 
 .container {
   max-width: 1280px;
+=======
+  /* max-width: 1300px; */
+>>>>>>> d54806c6a3e266a158c8b4d758a133fad4130771
   margin: 0 auto;
 }
 
 /* ===HEADER=== */
+header {
+  max-width: 1300px;
+  margin: 0 auto;
+}
 
 .section1 {
   width: auto;
@@ -339,7 +347,7 @@ div.content > div.partners-logos {
   background-size: 100%;
 }
 
-/* FAQ */
+/* ===FAQ=== */
 .faq-menu {
   display: flex;
   justify-content: center;
@@ -356,60 +364,77 @@ div.content > div.partners-logos {
   width: 1268px;
 }
 
-.description {
+.faq-description {
   font-size: 12px;
   letter-spacing: 1.5px;
   line-height: 2.17;
   padding: 32px 0 0;
 }
 
-.title h3 {
+.faq-title h3 {
   font-size: 1.75rem;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.5px;
   line-height: 1.36;
+  padding-top: 32px;
 }
 
-.faq > ul {
+.faq-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   list-style-type: none;
+  padding: 75px 90px 150px;
+  width: 100%;
 }
 
 .item {
-  background-color: #f6fbff;
+  background-color: #fff;
   border-radius: 2px;
-  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
-  cursor: pointer;
+  /* box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1); */
   font-size: 18px;
   margin-bottom: 10px;
   text-align: left;
   width: 720px;
 }
 
-.item > p {
+.item p:last-child {
+  padding-bottom: 30px;
+}
+
+summary {
+  background-image: url(/assets/images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right 30px center;
+  padding: 20px 80px 20px 30px;
+}
+
+summary {
+  cursor: pointer;
+  outline: none;
+  padding: 20px 80px 20px 30px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.summary-hover:hover {
+  background-color: #f6fbff;
+}
+
+.answers {
   font-size: 16px;
   font-weight: 300;
   padding: 0 30px 18px;
 }
 
-.item p:last-child {
-  padding-bottom: 30px;
-}
-
-.questions {
-  padding: 20px 80px 20px 30px;
-}
-
-/* Footer */
+/* ===F00TER=== */
 footer {
   background: #ffffff;
-  height: 140px;
-}
-
-.footer-style {
   display: flex;
+  height: 140px;
 }
 
 footer ul {
@@ -439,8 +464,11 @@ footer span {
   vertical-align: middle;
 }
 
-/* Media Queries */
+/* ===MEDIA QUERIES=== */
 @media only screen and (max-width: 1000px) {
+  /* ===FAQ MENU=== */
+
+  /* ===FOOTER=== */
   footer {
     height: 100%;
   }
