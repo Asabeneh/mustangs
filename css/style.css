@@ -14,14 +14,10 @@ body {
   height: 100vh;
   line-height: 1.5;
   width: 100vw;
-<<<<<<< HEAD
 }
 
 .container {
   max-width: 1280px;
-=======
-  /* max-width: 1300px; */
->>>>>>> d54806c6a3e266a158c8b4d758a133fad4130771
   margin: 0 auto;
 }
 
