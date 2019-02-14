@@ -367,6 +367,7 @@ summary {
 }
 
 summary {
+  cursor: pointer;
   outline: none;
   padding: 20px 80px 20px 30px;
 }
@@ -375,9 +376,8 @@ summary::-webkit-details-marker {
   display: none;
 }
 
-summary:hover {
+.summary-hover:hover {
   background-color: #f6fbff;
-  cursor: pointer;
 }
 
 .answers {

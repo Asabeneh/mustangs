@@ -191,7 +191,7 @@
             <ul class="content">
               <li class="item">
                 <details>
-                <summary>
+                <summary class="summary-hover">
                   Mikä on digitaalinen asunto-osakekauppa?
                 </summary>
                 <p class="answers">
@@ -207,7 +207,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>Mikä on DIAS?</summary>
+                <summary class="summary-hover">Mikä on DIAS?</summary>
                 <p class="answers">
                   DIAS tulee sanoista digitaalinen asuntokauppa. Se on Suomessa
                   kehitetty asunto-osakekaupan alusta, jossa ovat kattavasti
@@ -225,7 +225,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>Ketä DIASissa on mukana?</summary>
+                <summary class="summary-hover">Ketä DIASissa on mukana?</summary>
                 <p class="answers">
                   Digitaalisen asuntokauppa-alusta DIASin on kehittänyt
                   suomalainen Tomorrow Tech yhdessä suomalaisten pankkien
@@ -247,7 +247,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>
+                <summary class="summary-hover">
                   Mitä hyötyä asunto-osakekaupan digitalisoinnista on?
                 </summary>
                 <p class="answers">
@@ -284,7 +284,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>
+                <summary class="summary-hover">
                   Mikä muuttuu digitaalisen asunto-osakekaupan myötä?
                 </summary>
                 <p class="answers">
@@ -310,7 +310,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>
+                <summary class="summary-hover">
                   Milloin digitaaliseen asuntokauppaan siirtyminen tapahtuu?
                 </summary>
                 <p class="answers">
@@ -324,7 +324,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>Mikä muuttuu asunto-osakeyhtiöissä?</summary>
+                <summary class="summary-hover">Mikä muuttuu asunto-osakeyhtiöissä?</summary>
                 <p class="answers">
                   Taloyhtiöiden tulee siirtää osakeluettelonsa sähköiseen
                   osakehuoneistorekisteriin vuoden 2022 loppuun mennessä. Siirto
@@ -340,7 +340,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>
+                <summary class="summary-hover">
                   Mikä muuttuu kiinteistönvälityksessä?
                 </summary>
                 <p class="answers">
@@ -355,7 +355,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>
+                <summary class="summary-hover">
                   Mitä digitaalinen asuntokauppa maksaa?
                 </summary>
                 <p class="answers">
@@ -374,7 +374,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>
+                <summary class="summary-hover">
                   Voinko tehdä digitaalisen asuntokaupan jo nyt?
                 </summary>
                 <p class="answers">
@@ -388,7 +388,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>
+                <summary class="summary-hover">
                   Miten digitaalisen asuntokaupan teko käytännössä tapahtuu?
                 </summary>
                 <p class="answers">
@@ -408,7 +408,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>
+                <summary class="summary-hover">
                   Onko digitaalinen asunto-osakekauppa turvallista?
                 </summary>
                 <p class="answers">
@@ -436,7 +436,7 @@
               </li>
               <li class="item">
                 <details>
-                <summary>
+                <summary class="summary-hover">
                   Mitä tarkoittaa DIASissa käytetty lohkoketju?
                 </summary>
                 <p class="answers">
@@ -477,24 +477,20 @@
          detail.addEventListener('toggle', (e) => {
            if(detail.open){
               e.target.children[0].style.backgroundImage= 'none';
-              flag = true;
+              e.target.children[0].classList.remove("summary-hover");
+              flag = !flag;
+             
            }
-          //  if(detail.close ) {
-          //   e.target.children[0].style.backgroundImage= `url(${./assets/images/icon-arrow.svg})`;
-          //     flag = false;
-          //  }
+           else {
+            e.target.children[0].style.backgroundImage= "url('/assets/images/icon-arrow.svg')";
+            e.target.children[0].classList.add("summary-hover");
+              flag = !flag;
+
+           }
           
          })
       }))
-    
-    
-//       summary {
-//   background-image: url(/assets/images/icon-arrow.svg);
-//   background-repeat: no-repeat;
-//   background-position: right 30px center;
-//   padding: 20px 80px 20px 30px;
-// }
-    
+
     </script>
   </body>
 </html>
