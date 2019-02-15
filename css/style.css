@@ -288,7 +288,7 @@ header {
 
 /* Sooyeon */
 div.partners-box {
-  width: 100%;
+  width: 90%;
   margin: auto;
   display: grid;
   grid-gap: 1em;
@@ -297,8 +297,8 @@ div.partners-box {
 }
 
 div.partners-box > div.content {
-  width: 100%;
   /* I have to find out exactly same width with others */
+  width: 100%;
   margin: auto;
   background-color: #fff;
 }
