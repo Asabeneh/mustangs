@@ -26,6 +26,7 @@ header {
   max-width: 1300px;
   margin: 0 auto;
 }
+/* ===HEADER=== */
 
 .section1 {
   width: auto;
@@ -49,12 +50,17 @@ header {
   background-image: url("../assets/images/logo.png");
   background-size: cover;
   background-position: center 100%;
+  font-size: 2vw;
 }
+
 .logo .tooltip {
   visibility: hidden;
   color: #2ad0a7;
-  padding: 20px;
+  padding: 5px;
   font-size: 20px;
+  border-radius: 2%;
+  background-color: rgb(235, 229, 229);
+  display: block;
 }
 
 .logo:hover .tooltip {
@@ -94,12 +100,13 @@ header {
   color: white;
   text-align: center;
   margin-top: 220px;
-  font-size: 25px;
+  font-size: 2.2vw;
   font-weight: 900;
   line-height: 1;
   letter-spacing: 2px;
 }
 .section2 {
+  /* margin: 12px auto 0 auto; */
   margin: 10px auto 0 auto;
   display: flex;
   justify-content: space-between;
@@ -118,18 +125,18 @@ header {
 .BackgroundPart {
   background-image: url("../assets/images/BackgroundBG.jpeg");
   background-size: 100% 100%;
-  margin-right: 7px;
+  margin: 12px 7px 12px 0;
 }
 .ServicePart {
   background-image: url("../assets/images/ServicesBG.jpg");
   background-size: 100% 100%;
-  margin-left: 7px;
+  margin: 12px 0 12px 7px;
 }
 .sec2Txt {
   margin-top: 140px;
 }
 .readmoreBtn {
-  margin: 270px 0;
+  margin: 270px 0 40px 0;
 }
 .readmoreBtn a {
   text-decoration: none;
@@ -207,6 +214,7 @@ header {
 .readMore-container {
   display: flex;
   justify-content: space-evenly;
+  margin: 1vw 3.4vw;
   margin: 1vw auto;
   flex-wrap: wrap;
 }
@@ -238,6 +246,7 @@ header {
   font-size: 16px;
   margin: 1rem 0.5rem;
   cursor: pointer;
+  margin-top: 2rem;
 
   padding: 0.375rem 1.25rem;
   border-radius: 2px;
@@ -290,6 +299,7 @@ header {
 div.partners-box {
   width: 90%;
   margin: auto;
+  border: red dashed;
   display: grid;
   grid-gap: 1em;
   grid-column-gap: 10px;
@@ -325,6 +335,7 @@ div.content > div.title {
 }
 
 div.content > div.partners-logos {
+  border: #000 dashed;
   display: grid;
   margin-top: 12px;
   margin: 0 220px;
