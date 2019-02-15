@@ -14,9 +14,10 @@ body {
   height: 100vh;
   line-height: 1.5;
   width: 100vw;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 /* ===HEADER=== */
-
 
 .section1 {
   width: auto;
@@ -40,16 +41,17 @@ body {
   background-image: url("../assets/images/logo.png");
   background-size: cover;
   background-position: center 100%;
+  font-size: 2vw;
 }
-.tooltip {
+
+.logo .tooltip {
   visibility: hidden;
   color: #2ad0a7;
-  padding: 10px 20px;
-  font-size: 22px;
-  background-color: rgb(218, 212, 212);
-  position: block;
-  border-radius: 5%;
-  margin: 3px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 2%;
+  background-color: rgb(235, 229, 229);
+  display: block;
 }
 
 .logo:hover .tooltip {
@@ -89,18 +91,17 @@ body {
   color: white;
   text-align: center;
   margin-top: 220px;
-  font-size: 25px;
+  font-size: 2.2vw;
   font-weight: 900;
   line-height: 1;
   letter-spacing: 2px;
 }
 .section2 {
-  margin: 10px auto 0 auto;
-  height: 650px;
+  /* margin: 12px auto 0 auto; */
   display: flex;
   justify-content: space-between;
   color: white;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 .sec2Item {
   flex: 1;
@@ -114,18 +115,18 @@ body {
 .BackgroundPart {
   background-image: url("../assets/images/BackgroundBG.jpeg");
   background-size: 100% 100%;
-  margin-right: 7px;
+  margin: 12px 7px 12px 0;
 }
 .ServicePart {
   background-image: url("../assets/images/ServicesBG.jpg");
   background-size: 100% 100%;
-  margin-left: 7px;
+  margin: 12px 0 12px 7px;
 }
 .sec2Txt {
   margin-top: 140px;
 }
 .readmoreBtn {
-  margin: 270px 0;
+  margin: 270px 0 40px 0;
 }
 .readmoreBtn a {
   text-decoration: none;
@@ -273,35 +274,60 @@ body {
 div.partners-box {
   width: 100%;
   margin: auto;
+  border: red dashed;
+  display: grid;
+  grid-gap: 1em;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 div.partners-box > div.content {
-  width: 80%;
+  width: 85%;
+  /* I have to find out exactly same width with others */
   margin: auto;
+  border: yellowgreen dashed;
+  background-color: #fff;
 }
 
-/* this part I put exactly same the website setting to test */
+/* this part I put exactly same website setting to test */
 div.content > div.desc {
+  border: pink dashed;
+  color: #444;
   font-size: 12px;
+  font-weight: 400;
   letter-spacing: 1.5px;
   line-height: 2.17;
-  padding: 32px 0 0;
+  /* padding: 32px 0 0; */
+  text-align: center;
 }
 
 div.content > div.title {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 1.36;
+  margin: auto;
+  text-align: center;
+  width: 75%;
 }
 
-div.content > div.logos {
+div.content > div.partners-logos {
+  border: #000 dashed;
   display: grid;
-  background-color: #fff;
-  /* background-image: url(./mustangs/assets/images/Wordmark_Black.png); */
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-auto-rows: minmax(150px, auto);
-  grid-gap: 1em;
+  margin-top: 12px;
+  margin: 0 220px;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  grid-auto-rows: minmax(50px, auto);
+  /* grid-gap: 4em; */
+  grid-column-gap: 4em;
+  grid-row-gap: 3em;
 }
 
-.logo a {
-  background-color: darkorchid;
+.logo1 {
+  height: 60px;
+  background-image: url(../assets/images/Wordmark_Black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 /* FAQ */
